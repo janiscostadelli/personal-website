@@ -1,8 +1,6 @@
 import styled from "styled-components";
 
 export const MainContainer = styled.div`
-background: #918BDA;
-background-image: linear-gradient(rgba(17, 68, 146, 0.2), #918BDA);
 height: 100vh;
 width: 100vw;
 font-family: 'Oswald';

@@ -1,4 +1,5 @@
 import React from 'react';
+import ParticleBackground from './ParticleBackground';
 import {
   MainContainer,
   Header,
@@ -12,12 +13,11 @@ import {
   Title,
   SubTitle
 } from './styled.js';
-// amo meu mozin confusa
 
 const HomePage = () => {
   return (
     <MainContainer>
-
+      <ParticleBackground />
       <Header>
         <IconGroup>
           <Icon href='https://www.linkedin.com/in/janiscostadelli' target='_blank'><img src='./icons/linkedin 1.png'/></Icon>
