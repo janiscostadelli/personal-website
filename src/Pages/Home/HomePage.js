@@ -29,8 +29,8 @@ const HomePage = () => {
           <Icon href='https://github.com/janiscostadelli' target='_blank'><img src={github}/></Icon>
         </IconGroup>
         <ButtonGroup>
-          <OutlinedButton href='#'>projects</OutlinedButton>
-          <OutlinedButton href='#'>contact</OutlinedButton>
+          <OutlinedButton href='#'>PROJECTS</OutlinedButton>
+          <OutlinedButton href='#'>CONTACT</OutlinedButton>
         </ButtonGroup>
       </Header>
 
