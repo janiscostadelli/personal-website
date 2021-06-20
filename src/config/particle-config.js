@@ -1,7 +1,7 @@
 const particlesConfig = {
   particles: {
     number: {
-      value: 160,
+      value: 100,
       density: {
         enable: true,
         value_area: 800
@@ -36,7 +36,7 @@ const particlesConfig = {
       }
     },
     size: {
-      value: 3,
+      value: 2.5,
       random: true,
       anim: {
         enable: false,
@@ -107,7 +107,7 @@ const particlesConfig = {
     }
   },
   retina_detect: true
-};
+}
 
 export default particlesConfig;
 

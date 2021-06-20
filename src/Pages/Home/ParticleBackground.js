@@ -13,7 +13,7 @@ const MainContainer = styled.div`
 const ParticleBackground = () => {
   return (
     <MainContainer>
-      <Particles height='100vh' width='100vw' params={particlesConfig}></Particles>
+      <Particles height='100vh' params={particlesConfig}></Particles>
     </MainContainer>
   );
 };
