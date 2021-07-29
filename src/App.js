@@ -10,6 +10,7 @@ function App() {
     <ChakraProvider>
         <HomePage />
         <AboutPage />
+        <ProjectsPage />
         <ContactPage />
     </ChakraProvider>
   )
