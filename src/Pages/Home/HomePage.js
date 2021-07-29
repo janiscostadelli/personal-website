@@ -1,10 +1,8 @@
 import React from 'react';
 import ParticleBackground from './ParticleBackground';
-import downArrow from './Imgs/downArrow.png';
-import line from './Imgs/line.png';
-import linkedin from './Imgs/linkedin.png';
-import github from './Imgs/github.png' 
-
+import downArrow from '../../assets/downArrow.png';
+import linkedin from '../../assets/linkedin.png';
+import github from "../../assets/github.png" ;
 import {
   MainContainer,
   Header,
@@ -29,18 +27,18 @@ const HomePage = () => {
           <Icon href='https://github.com/janiscostadelli' target='_blank'><img src={github}/></Icon>
         </IconGroup>
         <ButtonGroup>
-          <OutlinedButton href='#projects'>PROJECTS</OutlinedButton>
-          <OutlinedButton href='#contact'>CONTACT</OutlinedButton>
+          <OutlinedButton href='#projetos'>PROJETOS</OutlinedButton>
+          <OutlinedButton href='#contato'>CONTATO</OutlinedButton>
         </ButtonGroup>
       </Header>
 
       <Hero>
         <Title>JANIS COSTADELLI</Title>
-        <SubTitle>FullStack Developer</SubTitle>
+        <SubTitle>Desenvolvedora FullStack</SubTitle>
       </Hero>
 
       <Footer>
-        <DownArrow href='#'><img src={downArrow}/></DownArrow>
+        <DownArrow href='#sobre'><img src={downArrow}/></DownArrow>
       </Footer>
     </MainContainer>
 
