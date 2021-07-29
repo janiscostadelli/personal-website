@@ -3,7 +3,7 @@ import { backgroundColor, primaryColor } from "../../constants/colors";
 
 export const MainContainer = styled.div`
   position: relative;
-  height: 100vh;
+  height: 90vh;
   background: ${backgroundColor};
   padding: 80px;
 `;
@@ -13,7 +13,7 @@ export const Title = styled.h2`
   font-size: 36px;
   font-family: "Oswald";
   text-align: justify;
-  margin: 50px 0px 50px 0px;
+  margin-bottom: 50px;
   width: 850px;
 `;
 
