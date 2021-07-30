@@ -1,32 +1,40 @@
-import styled from "styled-components"
-import { primaryColor } from "../../constants/colors"
+import styled from "styled-components";
+import { primaryColor } from "../../constants/colors";
 
 export const MainContainer = styled.div`
-position: relative;
-background-color: ${primaryColor};
-height: 200px;
-display: flex;
-align-items: center;
-justify-content: center;
-`
+  position: relative;
+  background-color: ${primaryColor};
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  @media (max-width: 600px) {
+    height: 150px;
+    padding-left: 135px;
+  }
+`;
 
 export const Avatar = styled.img`
   height: 200px;
   position: absolute;
   margin-right: 350px;
+  @media (max-width: 600px) {
+    height: 150px;
+  }
 `;
 
 export const IconButton = styled.a`
-  img{
+  img {
     height: 40px;
     transition: 500ms;
 
-    :hover{
+    :hover {
       cursor: pointer;
       height: 50px;
     }
   }
-`
+`;
 
 export const ButtonsContainer = styled.div`
   display: flex;
@@ -36,17 +44,17 @@ export const ButtonsContainer = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-`
+`;
 
 export const TextContainer = styled.div`
   text-align: center;
   color: white;
   font-family: "Oswald";
-`
+`;
 
 export const InfoContainer = styled.div`
-display: flex;
-flex-direction: column;
-align-items: center;
-justify-content: space-around;
-`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+`;

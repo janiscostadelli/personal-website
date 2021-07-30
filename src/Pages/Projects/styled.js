@@ -10,6 +10,10 @@ export const Title = styled.h3`
   width: 100%;
   margin: 15px;
   background-color: ${primaryColor};
+
+  @media (max-width: 600px) {
+    margin: 0px;
+  }
 `;
 
 export const MainContainer = styled.div`
@@ -21,6 +25,10 @@ export const MainContainer = styled.div`
   align-items: center;
   padding: 50px;
   padding-top: 0px;
+
+  @media (max-width: 600px) {
+    padding: 0px;
+  }
 `;
 
 export const ProjectContainer = styled.div`
@@ -28,6 +36,9 @@ export const ProjectContainer = styled.div`
   width: 70vw;
   display: flex;
   align-items: center;
+  @media (max-width: 600px) {
+    width: 100%;
+  }
 `;
 
 export const ProjectImg = styled.div`
@@ -37,6 +48,9 @@ export const ProjectImg = styled.div`
   width: 60%;
   background-image: url("${(props) => props.src}");
   background-size: auto 100%;
+  @media (max-width: 600px) {
+    display: none;
+  }
 `;
 
 export const StyledList = styled.ul`
@@ -46,10 +60,11 @@ export const StyledList = styled.ul`
     color: ${primaryColor};
   }
   margin: 5px 0px;
-`
+`;
 
 export const ProjectDescription = styled.div`
-  height: 100%;
+  min-height: 100%;
+  margin: 20px;
   width: 300px;
   p {
     text-align: justify;
@@ -60,6 +75,11 @@ export const ProjectDescription = styled.div`
     :hover {
       color: ${primaryColor};
     }
+
+    @media (max-width: 600px) {
+      color: ${primaryColor};
+      width: 0px;
+    }
   }
 `;
 
@@ -69,4 +89,12 @@ export const ProjectTitle = styled.h3`
   font-size: 25px;
   font-weight: 700;
   margin-top: 20px;
+  @media (max-width: 600px) {
+    background-color: ${primaryColor};
+    color: white;
+    font-weight: 500;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
 `;

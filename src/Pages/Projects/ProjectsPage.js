@@ -6,7 +6,7 @@ import {
   ProjectImg,
   ProjectTitle,
   Title,
-  StyledList
+  StyledList,
 } from "./styled";
 import Carousel from "@brainhubeu/react-carousel";
 import "@brainhubeu/react-carousel/lib/style.css";
@@ -22,9 +22,7 @@ const ProjectsPage = () => {
           <ProjectImg src={aquaProject} />
           <ProjectDescription>
             <ProjectTitle>Aqua</ProjectTitle>
-            <p>
-            Primeiro projeto Full Stack de um site de musicas.
-            </p>
+            <p>Primeiro projeto Full Stack de um site de musicas.</p>
             <ProjectTitle>Funcionalidades</ProjectTitle>
             <StyledList>
               <li>Criar música</li>
@@ -63,7 +61,7 @@ const ProjectsPage = () => {
           </ProjectDescription>
         </ProjectContainer>
         <ProjectContainer>
-          <ProjectImg src={labeCommerce}/>
+          <ProjectImg src={labeCommerce} />
           <ProjectDescription>
             <ProjectTitle>Labecommerce</ProjectTitle>
             <p>
@@ -72,12 +70,12 @@ const ProjectsPage = () => {
             </p>
             <ProjectTitle>Funcionalidades</ProjectTitle>
             <StyledList>
-            <li>Filtro por nome</li>
-            <li>Filtro por preços máximo e mínimo</li>
-            <li>Adicionar itens ao carrinho</li>
-            <li>Excluir itens do carrinho</li>
-            <li>Ordenar produtos por maior ou menor preço</li>
-            <li>Armazenar produtos do carrinho no Local Storage</li>
+              <li>Filtro por nome</li>
+              <li>Filtro por preços máximo e mínimo</li>
+              <li>Adicionar itens ao carrinho</li>
+              <li>Excluir itens do carrinho</li>
+              <li>Ordenar produtos por maior ou menor preço</li>
+              <li>Armazenar produtos do carrinho no Local Storage</li>
             </StyledList>
             <ProjectTitle>Links</ProjectTitle>
             <p>
