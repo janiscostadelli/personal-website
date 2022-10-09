@@ -1,4 +1,4 @@
-#  :waning_crescent_moon: [Personal Website](https://janiscostadelli.github.io/personal-website/)
+#  :stars: [Personal Website](https://janiscostadelli.github.io/personal-website/)
 
 Projeto front-end do meu portfólio.
 
