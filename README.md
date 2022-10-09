@@ -1,4 +1,4 @@
-#  :stars: [Personal Website](https://janiscostadelli.github.io/personal-website/)
+#  :sparkles: [Personal Website](https://janiscostadelli.github.io/personal-website/)
 
 Projeto front-end do meu portfólio.
 
