@@ -12,12 +12,11 @@ import avatar_img from "../../assets/avatar.png";
 const skills = [
   "React",
   "Typescript",
+  "Angular",
+  "Ionic",
   "NodeJS",
   "Javascript",
   "MySQL",
-  "AWS",
-  "Jest",
-  "Express",
   "Git",
 ];
 
@@ -29,9 +28,8 @@ const AboutPage = () => {
   return (
     <MainContainer id="sobre">
       <Title>
-        Biomédica formada e desenvolvedora full stack em início de carreira,
-        buscando oportunidades na área de tecnologia, sempre disposta a aprender
-        mais.
+        Desenvolvedora front-end buscando oportunidades na área de tecnologia,
+        sempre disposta a aprender mais.
       </Title>
       <SubTitle>Stack</SubTitle>
       <CardsContainer>{renderCards}</CardsContainer>

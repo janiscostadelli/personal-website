@@ -27,10 +27,10 @@ const HomePage = () => {
             href="https://www.linkedin.com/in/janiscostadelli"
             target="_blank"
           >
-            <img src={linkedin} />
+            <img src={linkedin} alt="linkedin logo" />
           </Icon>
           <Icon href="https://github.com/janiscostadelli" target="_blank">
-            <img src={github} />
+            <img src={github} alt="github logo" />
           </Icon>
         </IconGroup>
         <ButtonGroup>
@@ -41,12 +41,12 @@ const HomePage = () => {
 
       <Hero>
         <Title>JANIS COSTADELLI</Title>
-        <SubTitle>Desenvolvedora FullStack</SubTitle>
+        <SubTitle>Desenvolvedora Front-End</SubTitle>
       </Hero>
 
       <Footer>
         <DownArrow href="#sobre">
-          <img src={downArrow} />
+          <img src={downArrow} alt="down arrow img" />
         </DownArrow>
       </Footer>
     </MainContainer>
